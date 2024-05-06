@@ -1,2 +1,2 @@
 # Front End
-Some projects and tasks with HTML, CSS , and JS.
+Some projects and tasks by HTML, CSS , and JS.
