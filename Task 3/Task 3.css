@@ -1,1 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+
+.sign-up-form-input{               /* Applyig some changes to input in sign-up-form */
+    width: 500px;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0 15px 0;
+}
+
+
+.sign-up-form{                      /* Make sign-up-form in a box and change its position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+input[type="submit"]{           /* Applyig some changes to submit button */
+    width: 100px;
+    height: 30px;
+    margin: 15px 0 0 0;
+    background: rgb(82, 138, 175);
+    color: white;
+    border: white;
+    border-radius: 5px;
+}
+
+
+.pages{                          /* Put links and logo in a box and apply changes */
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    padding: 20px;
+    border: 2px;
+    background: rgb(225, 224, 222);
+}
+
+
+a{                              /* Applyig some changes to links */
+    text-decoration: none;
+    color: black;
+}
+
+
+#logo{                          /* Make logo take most of the row */
+    flex-grow: 1;
+}
+
+
+#photo{                         
+    border-radius: 50px;
+}
+
+
+.content{                       /* Make the content in the conter of the page */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.content-text{                  
+    margin: 150px 20px;
+}
