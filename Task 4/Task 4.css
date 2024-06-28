@@ -1,1 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.header{                          /* Put links and logo in a box and apply changes */
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 2px;
+    background: #15b9e2;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#logo{                          
+    flex-grow: 1;
+    font-size: 30px;
+}
+
+button{
+    all: unset;
+    padding: 5px;
+    background: #15b9e2;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.title{
+    margin: 50px 200px;
+}
+
+.par1{
+    display: flex;
+    margin: 0 50px 0 50px;
+    padding: 50px 0 50px 0 ;
+    align-items: center;
+}
+
+#speech1{
+    flex-grow: 1;
+}
+
+.par2{
+    display: flex;
+    margin: 0 50px 0 50px;
+    padding: 50px 0 50px 0 ;
+    align-items: center;
+}
+
+#speech2{
+    flex-grow: 1;
+}
+
+#photo{
+    border-radius: 300px;
+}
+
+#photo3{
+    padding: 50px 0 50px 0 ;
+}
